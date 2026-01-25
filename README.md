@@ -20,7 +20,7 @@
 
 ## 🎯 Overview
 
-**The Problem:** Large Language Models (LLMs) suffer from **memory interference**—when prior conversation context interferes with current reasoning, leading to incorrect or inconsistent responses. This happens when:
+**The Problem:** Large Language Models (LLMs) suffer from **memory interference**, when prior conversation context interferes with current reasoning, leading to incorrect or inconsistent responses. This happens when:
 
 - Previous discussion of "Python the snake" interferes with coding questions about Python
 - Earlier medical case details contaminate diagnosis of a new patient
