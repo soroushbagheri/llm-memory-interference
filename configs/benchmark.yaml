@@ -1,0 +1,40 @@
+# Benchmark Configuration
+# Full evaluation with multiple baselines
+
+# Extends default.yaml
+model:
+  name: "mock"  # Change to gpt-4-turbo or claude-3-5-sonnet for real runs
+  temperature: 0.7
+  max_tokens: 1024
+
+detector:
+  threshold: 0.5
+  n_samples: 10
+
+benchmark:
+  baselines:
+    - "no_intervention"
+    - "fixed_window_3"
+    - "fixed_window_5"
+    - "fixed_window_10"
+    - "soft_masking"
+    - "hard_masking"
+    - "reordering"
+  
+  metrics:
+    - "interference_detection_rate"
+    - "false_positive_rate"
+    - "accuracy"
+    - "response_quality"
+    - "computational_overhead"
+  
+  dataset_size: 1000
+  split:
+    train: 0.6
+    val: 0.2
+    test: 0.2
+
+output:
+  results_dir: "./results/benchmark"
+  plots_dir: "./results/plots"
+  save_predictions: true
