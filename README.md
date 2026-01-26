@@ -20,7 +20,7 @@
 
 ## 🎯 Overview
 
-**The Problem:** Large Language Models (LLMs) suffer from **memory interference**, when prior conversation context interferes with current reasoning, leading to incorrect or inconsistent responses. This happens when:
+**The Problem:** Large Language Models (LLMs) suffer from **memory interference**—when prior conversation context interferes with current reasoning, leading to incorrect or inconsistent responses. This happens when:
 
 - Previous discussion of "Python the snake" interferes with coding questions about Python
 - Earlier medical case details contaminate diagnosis of a new patient
@@ -32,6 +32,8 @@
 2. **Traces** the specific tokens/turns causing interference
 3. **Mitigates** interference through selective context masking
 4. **Validates** improvement in response quality
+
+> 📚 **New to this project?** Read the **[Project Deep Dive](docs/PROJECT_DEEP_DIVE.md)** for a comprehensive explanation of motivation, methodology, critical analysis, and academic positioning.
 
 ### Key Features
 
@@ -78,6 +80,8 @@ Apply three intervention strategies:
 | **Soft Masking** | Reduce attention weights to interfering tokens | Minor conflicts |
 | **Hard Masking** | Completely remove interfering context segments | Major contradictions |
 | **Context Reordering** | Move interfering content away from current query | Structural interference |
+
+> 💡 **Important:** Our mitigation is **inference-time only**—no GPU, no retraining, no fine-tuning required. See [Project Deep Dive § Part 4](docs/PROJECT_DEEP_DIVE.md#part-4-how-mitigation-works) for details.
 
 ---
 
@@ -228,6 +232,7 @@ llm-memory-interference/
 │   └── test_mitigator.py
 │
 ├── docs/                         # Documentation
+│   ├── PROJECT_DEEP_DIVE.md      # 🆕 Comprehensive project explanation
 │   ├── METHODOLOGY.md            # Detailed methodology
 │   ├── API.md                    # API documentation
 │   ├── EXPERIMENTS.md            # Experiment guide
@@ -243,10 +248,13 @@ llm-memory-interference/
 
 ## 📖 Documentation
 
-- **[Methodology](docs/METHODOLOGY.md):** Detailed explanation of detection, tracing, and mitigation algorithms
-- **[API Reference](docs/API.md):** Complete API documentation
-- **[Experiments Guide](docs/EXPERIMENTS.md):** How to reproduce all experiments
-- **[References](docs/REFERENCES.md):** Related work and positioning
+| Document | Description |
+|----------|-------------|
+| **[Project Deep Dive](docs/PROJECT_DEEP_DIVE.md)** | 🆕 Comprehensive explanation: motivation, methodology, critical analysis, and academic positioning |
+| **[Methodology](docs/METHODOLOGY.md)** | Detailed explanation of detection, tracing, and mitigation algorithms |
+| **[API Reference](docs/API.md)** | Complete API documentation |
+| **[Experiments Guide](docs/EXPERIMENTS.md)** | How to reproduce all experiments |
+| **[References](docs/REFERENCES.md)** | Related work and positioning |
 
 ---
 
