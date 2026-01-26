@@ -330,12 +330,7 @@ Contributions are welcome! Please:
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{bagheri2026memory,
-  title={Memory Interference Forensics: Detecting and Mitigating Context Interference in Large Language Models},
-  author={Bagheri, Soroush},
-  journal={arXiv preprint},
-  year={2026}
-}
+
 ```
 
 ---
