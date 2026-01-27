@@ -279,8 +279,8 @@ Become the **standard solution for context interference detection and mitigation
 
 ### Human Resources
 
-**Phase 1-2:** 1 person (you) full-time  
-**Phase 3:** 2-3 people (you + engineer + domain expert)  
+**Phase 1-2:** 1 person 
+**Phase 3:** 2-3 people (engineer + domain expert)  
 **Phase 4+:** 5+ people (founding team)
 
 ### Compute Resources
@@ -318,28 +318,7 @@ Become the **standard solution for context interference detection and mitigation
 - Mitigation improvement < 10%
 - No clear publication path
 
-### Checkpoint 2: After Phase 2 (Week 22)
 
-**Decision:** Pursue production deployment OR stay academic?
-
-**Go (production) criteria:**
-- Paper accepted at conference
-- 2+ industry partners interested
-- Clear revenue model identified
-
-**Go (academic) criteria:**
-- Paper accepted but no industry interest
-- Apply for PhD programs to continue research
-- Seek postdoc positions
-
-### Checkpoint 3: After Phase 3 (Week 34)
-
-**Decision:** Raise funding OR stay bootstrap?
-
-**Go (fundraise) criteria:**
-- Successful pilot with measurable ROI
-- 10+ companies interested in product
-- Strong founding team assembled
 
 **Go (bootstrap) criteria:**
 - Build consultancy around the technology
@@ -349,7 +328,7 @@ Become the **standard solution for context interference detection and mitigation
 
 ## Current Status (Jan 25, 2026)
 
-**Phase:** 0 (Foundation) ✅ COMPLETE  
+**Phase:** 0 (Foundation)  
 **Next Milestone:** Phase 1, Week 1 (Real LLM Integration)  
 **Timeline:** On track  
 **Blockers:** None  
