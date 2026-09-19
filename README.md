@@ -41,7 +41,7 @@
 - ✅ **Causal Tracing:** Gradient-based identification of interfering tokens
 - ✅ **Selective Amnesia:** Automatic masking of problematic context
 - ✅ **Real-time Processing:** Inference-time intervention without retraining
-- ✅ **Model-Agnostic:** Works with GPT-4, Claude, Llama, and other LLMs
+- ✅ **Model-Agnostic:** Works with GPT, Claude, Llama, and other LLMs
 - ✅ **Reproducible:** Comprehensive experiments with open datasets
 
 ---
